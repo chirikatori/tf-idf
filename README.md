@@ -20,10 +20,10 @@ Crawl_data
 python crawl.py
 ~~~
 
-Install 
+Install requirements
 
 ~~~bash  
-python term-document.py
+pip install -r requirements.txt && python tools/nltk_downloader.py
 ~~~
 
 Create term-document.csv  
